@@ -1,0 +1,45 @@
+.tabela{
+    width: 100%;margin:0px;
+}body{
+    margin:0px
+}.voltar{
+    width:18%;min-width: 40px;margin:8px;background-color: #4fb3b3e3;
+    border-radius: 100%;border-style: solid;border-width: thin;
+}.c1{
+    width:25%
+}.c2{
+    width:50%
+}:hover.voltar{
+    transition: 1s;
+    background-color: white;
+}.title{
+    text-align:center;font-family:Impact;font-size: 30px;font-weight:unset;font-style:inherit;
+}.jogotabela{
+    min-height: 55%;width: 50%;margin-top: 4%;min-width:275px
+}.celula{
+    height:125px;width:33%;
+}
+.imagem1{height: 96%;width: 80px;display: none;}
+.imagem2{height: 96%;width: 80px;display: none;}
+.imagem3{height: 96%;width: 80px;display: none;}
+.imagem4{height: 96%;width: 80px;display: none;}
+.imagem5{height: 96%;width: 80px;display: none;}
+.imagem6{height: 96%;width: 80px;display: none;}
+.imagem7{height: 96%;width: 80px;display: none;}
+.imagem8{height: 96%;width: 80px;display: none;}
+.imagem9{height: 96%;width: 80px;display: none;}
+
+.imagem10{height: 96%;width: 80px;}
+.imagem20{height: 96%;width: 80px;}
+.imagem30{height: 96%;width: 80px;}
+.imagem40{height: 96%;width: 80px;}
+.imagem50{height: 96%;width: 80px;}
+.imagem60{height: 96%;width: 80px;}
+.imagem70{height: 96%;width: 80px;}
+.imagem80{height: 96%;width: 80px;}
+.imagem90{height: 96%;width: 80px;}
+.mensagem{
+    font-weight: bolder;color: darkblue;
+}.mensag{
+    font-weight: bolder;color: rgb(39, 119, 14);
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jogo da velha</title>
+    <link rel="stylesheet" type="text/css" href="jgvelha.css">
+</head>
+<body>
+    <table class="tabela">
+        <tr>
+            <td class="c1">
+                <div class="borda">
+                    <a href="indexgames.html"><img id="volt" class="voltar" src="https://image.flaticon.com/icons/png/512/60/60577.png" alt="" onmouseout="nobotao()" onmouseover="forabotao()"></a>
+                </div>
+            </td>
+            <td class="c2">
+                <p class="title">Jogo da velha (Tic Tac Toe)</p>
+            </td>
+            <td class="c1"></td>
+        </tr>
+    </table>
+    <center>
+    <p id="mensagem" class="mensagem">Rodada - Jogador <strong>1</strong></p>
+        <table class="jogotabela" cellspacing="0px" border="2px">
+            <tr class="t1" height="120px">
+                <td class="celula" onclick="img1(); this.onclick=null;"><center><img src="" alt="" class="imagem1" id="d1"></center></td>
+                <td class="celula" onclick="img2(); this.onclick=null;"><center><img src="" alt="" class="imagem1" id="d2"></center></td>
+                <td class="celula" onclick="img3(); this.onclick=null;"><center><img src="" alt="" class="imagem1" id="d3"></center></td>
+            </tr>
+            <tr class="t1" id="t2" height="120px">
+                <td class="celula" onclick="img4(); this.onclick=null;"><center><img src="" alt="" class="imagem1" id="d4"></center></td>
+                <td class="celula" onclick="img5(); this.onclick=null;"><center><img src="" alt="" class="imagem1" id="d5"></center></td>
+                <td class="celula" onclick="img6(); this.onclick=null;"><center><img src="" alt="" class="imagem1" id="d6"></center></td>
+            </tr>
+            <tr class="t1" height="120px">
+                <td class="celula" onclick="img7(); this.onclick=null;"><center><img src="" alt="" class="imagem1" id="d7"></center></td>
+                <td class="celula" onclick="img8(); this.onclick=null;"><center><img src="" alt="" class="imagem1" id="d8"></center></td>
+                <td class="celula" onclick="img9(); this.onclick=null;"><center><img src="" alt="" class="imagem1" id="d9"></center></td>
+            </tr>
+        </table>
+    </center>
+    <script src="jgvelha.js"></script>
+</body>
+</html>
